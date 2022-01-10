@@ -1,11 +1,11 @@
-<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="500" xmlns="http://www.w3.org/2000/svg">
 
 <style>
 text {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    fill: rgba(0,0,0,.6);
-    font-size:140px;
+    fill: #3e3e3f;
+    font-size:130px;
     text-shadow: 2px 2px 1px rgba(255, 255, 255, .2);
    
 }
@@ -26,14 +26,13 @@ text {
   <text xml:space="preserve" class='align_mid ' id="svg_7" y="163" x='300' >I</text>
   <text xml:space="preserve" class='align_right' id="svg_8" y="163" x="600">A</text>
 
-  <text xml:space="preserve" class='align_left' id="svg_2" y="369.49999" x="0">P</text>
-  <text xml:space="preserve" class='align_mid' id="svg_5" y="369.50001" x="300">U</text>
-  <text xml:space="preserve" class='align_right' id="svg_6" y="369.49999" x="600">L</text>
+  <text xml:space="preserve" class='align_left' id="svg_2" y="330" x="0">P</text>
+  <text xml:space="preserve" class='align_mid' id="svg_5" y="330" x="300">U</text>
+  <text xml:space="preserve" class='align_right' id="svg_6" y="330" x="600">L</text>
 
-  <text xml:space="preserve" class='align_left' id="svg_16" y="566" x="0">I</text>
-  <text xml:space="preserve" class='align_mid' id="svg_17" y="566" x="180">Y</text>
-  <text xml:space="preserve" class='align_mid'  id="svg_19" y="566" x="370 ">E</text>
-  <text xml:space="preserve" class='align_right' id="svg_18" y="566" x="600">L</text>
-
+  <text xml:space="preserve" class='align_left' id="svg_16" y="500" x="0">I</text>
+  <text xml:space="preserve" class='align_mid' id="svg_17" y="500" x="200">Y</text>
+  <text xml:space="preserve" class='align_mid'  id="svg_19" y="500" x="390 ">E</text>
+  <text xml:space="preserve" class='align_right' id="svg_18" y="500" x="600">L</text>
  </g>
 </svg>

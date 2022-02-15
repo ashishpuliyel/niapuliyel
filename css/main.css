@@ -99,14 +99,92 @@ textarea {
 
 body {
     font-family: 'Lato', sans-serif;
-    background: #d3dee2;
+    background: #f7fdff;
     padding: 1rem 3rem 3rem 3rem;
 }
 
-.textContainer {
-    max-width: 40rem;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+#logo {
+    font-size: 1.1rem;
+    vertical-align: middle middle;
+    display: inline-block;
+}
+
+main {
+    margin-top: 3rem;
+    max-width: 800px;
+    margin: 3rem auto;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+}
+
+.flexrow .col.textContainer {
+    flex: 1 0 0%;
+    min-width: 280px;
+    padding: 0 2rem;
+}
+
+.flexrow .col.mainImg {
+    flex: 0 0 0%;
+}
+
+.flexrow .item img {
+    width: 2rem;
+    margin: 0 0.5rem;
+}
+
+.flexrow .item {
+    margin: 0 1.5rem 1rem 0;
+    flex: 1 0 0%;
+    min-width: 200px;
+}
+
+#mainImg {
+    display: block;
+    border-radius: 100%;
+    border: 0.7rem solid rgba(255, 255, 255, .8);
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, .08);
+    position: relative;
+    overflow: hidden;
+}
+
+#mainImg img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    color: #2382ff;
+}
+
+h2 {
+    color: #4b4b4b;
+    border-bottom: 2px solid #2382ff;
+    display: inline-block;
+}
+
+#letterMark {
+    display: inline-block;
+    border-radius: 100%;
+    background: #2382ff;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 0.5rem;
 }
 
 h3 {
